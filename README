@@ -1,1 +1,9 @@
-README
+🇮🇹 Descrizione  
+Questo repository contiene un progetto di Basi di Dati sviluppato al terzo anno della laurea triennale in Informatica per il Management.
+L’obiettivo è la progettazione e realizzazione del database relazionale per la piattaforma ESQL, un’applicazione web di supporto alla didattica SQL.
+Il lavoro include analisi dei requisiti, progettazione concettuale e logica (diagrammi E-R, normalizzazione), implementazione dello schema fisico tramite SQL, stored procedure, trigger e viste, oltre alla descrizione delle funzionalità dell’applicazione web per docenti e studenti.
+
+🇬🇧 Description  
+This repository contains a DBMS-WebApp project developed in the third year of the Bachelor’s degree in Computer Science for Business for the Databases course.
+The goal is the design and implementation of the relational database for ESQL, a web application supporting SQL learning activities.
+The project includes requirements analysis, conceptual and logical design (E-R diagrams, normalization), implementation of the physical schema using SQL, stored procedures, triggers, and views, as well as documentation of the web application's features for teachers and students.
