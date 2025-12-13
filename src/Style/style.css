@@ -1,0 +1,287 @@
+* {
+  color: #66645f;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+button,
+#test-docente {
+  padding: 20px;
+  border: 1px solid #66645f;
+  border-radius: 50px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover,
+#test-docente {
+  background-color: #66645f;
+  color: #f1f0ed;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  position: bottom;
+}
+
+input,
+select {
+  padding: 20px;
+  border: 1px solid #66645f;
+  border-radius: 50px;
+  background-color: #ebebeb;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 80vh;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.form-accesso {
+  height: 80vh;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  gap: 5px;
+  border: gray solid 2px;
+  border-radius: 30px;
+  padding: 0.5em;
+  box-shadow: 0 2px 4px rgba(50, 50, 50, 0.28);
+}
+
+.box img {
+  width: 50px;
+  height: 50px;
+}
+
+.box p,
+h4 {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: gray solid 2px;
+  margin-bottom: 50px;
+}
+
+#logo {
+  width: 15%;
+  height: 15%;
+  padding: 0.5em;
+  border-right: gray solid 1px;
+  margin: 0.2em;
+  margin-top: 0.8em;
+}
+
+#pageTag {
+  padding: 0px;
+  font-size: 30px;
+  margin: 0.2em;
+  margin-bottom: 8px;
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 75%;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  unicode-bidi: isolate;
+  border-color: inherit;
+}
+
+table thead th {
+  height: 60px;
+  background: #66645f;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  unicode-bidi: isolate;
+  border-color: inherit;
+}
+
+tbody tr {
+  font-size: 15px;
+  color: gray;
+  line-height: 1.2;
+  font-weight: unset;
+  height: 50px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eeebeb;
+}
+
+#descrizione {
+  width: 300px;
+}
+
+.quesito {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  background-color: white;
+  border: 1px solid #66645f;
+}
+
+.dati p,
+h3 {
+  margin: 5px;
+}
+.opzione {
+  border: #66645f 1px solid;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+/* stile per lo studente (home_studente)*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.container button {
+  width: 80%;
+  padding: 20px;
+  margin: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.logout {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  background-color: #e85f5c;
+  border: 1px solid #66645f;
+  border-radius: 50px;
+}
+
+.logout:hover {
+  background-color: #e71d36;
+}
+
+.crea-messaggio {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.box-messaggio {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 20px;
+}
+
+#titolo-test-messaggio {
+  width: fit-content;
+}
+
+#fatto-button {
+  background-color: #99f7ab;
+}
+
+#fatto-button:hover {
+  background-color: #0cf574;
+}
+/* stile per lo studente (visualizzaDocenti)*/
+.quesito,
+.quesitoChiuso,
+.docente {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  border: 1px solid #66645f;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#back {
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#back a {
+  padding: 20px;
+  background-color: #66645f;
+  border: 1px solid #66645f;
+  color: #f1f0ed;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#back a:hover {
+  padding: 20px;
+  border: 1px solid #66645f;
+  background-color: #f1f0ed;
+  color: #66645f;
+  border-radius: 50px;
+}
+
+a {
+  text-decoration: none;
+}

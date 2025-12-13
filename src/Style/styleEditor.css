@@ -1,0 +1,39 @@
+*{
+  color: #66645f;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #66645f;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #66645f;
+  color: #f1f0ed;
+  cursor: pointer;
+}
+
+#sqlForm{
+  width: 60vw; 
+}
+
+a{
+  color: #7b7a77;
+  margin-top: 100px;
+}
+
+a:hover{
+  color: black;
+}
+
+#backHome{
+  margin-top: 50px;
+}
