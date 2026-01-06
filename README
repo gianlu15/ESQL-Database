@@ -1,4 +1,4 @@
-# 🇮🇹 Descrizione  
+# 🇮🇹 Descrizione 
 Questo repository contiene un progetto DBMS-WebApp sviluppato al terzo anno della laurea triennale in Informatica per il Management per il corso di Basi di dati.
 L’obiettivo è la progettazione e realizzazione del database relazionale per la piattaforma ESQL, un’applicazione web di supporto alla didattica SQL.
 Il lavoro include analisi dei requisiti, progettazione concettuale e logica (diagrammi E-R, normalizzazione), implementazione dello schema fisico tramite SQL, stored procedure, trigger e viste, oltre alla descrizione delle funzionalità dell’applicazione web per docenti e studenti.
